@@ -1,0 +1,12 @@
+# Ignore the following
+
+__pycache__/
+env/
+
+*.egg-info/
+*.egg
+
+.DS_Store
+
+# Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints

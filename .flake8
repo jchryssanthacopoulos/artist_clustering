@@ -1,0 +1,3 @@
+[flake8]
+application-import-names=artist_listener_models
+import-order-style=google
