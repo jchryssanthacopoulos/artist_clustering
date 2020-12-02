@@ -23,7 +23,7 @@ Copy `.env.shadow` to `.env` and fill in with your Snowflake and neo4j
 connection parameters. The three source tables referenced in `config.py` need to
 exist in the Snowflake schema you specified. These are:
 
-1. `USER_ARTIST_STREAMS_FILTERED_WITH_IDS`: A table with columns `artistname`, `artistnum`, `userid`, `usernum`, and `total_streams`. Each row represents the total times a given listeners streamed a given artist.
+1. `USER_ARTIST_STREAMS_FILTERED_WITH_IDS`: A table with columns `artistname`, `artistnum`, `userid`, `usernum`, and `total_streams`. Each row represents the total times a given listener streamed a given artist.
 2. `ARTIST_IDS_SINGLE_GENRE`: A table with columns `artistname`, `countrylist`, and `genreid`. This represents the countries an artist has been played in, as well as their genre. `countrylist` is a comma-separated list of country names.
 3. `COUNTRY_ARTIST_STREAMS_BY_STORE`: A table with columns `artistnum`, `artistname`, `countryname`, `storename`, and `total_streams`. Each row is the total number of streams an artist received in a given country and "store" (e.g., Spotify, iTunes).
 
